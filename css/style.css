@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+   box-sizing: border-box;
+    }    
+
+    .container-fluid {
+       margin-top: 50px;
+       height: 220px;
+       margin-bottom: 50px;
+    }
+  
+    .nav-item a:hover {
+        color: red;
+        text-decoration: underline;
+    }    
+   .screen {
+       position: relative;
+   }
+    
+    .screen-picture {
+        width: 100%;
+        height: 220px;
+        position: absolute;
+        z-index: -1;
+        
+    }
+    .input-group {
+        
+        width: 400px;
+        position: absolute;
+        margin-left: 450px;
+        padding-top:70px;
+       
+       
+    }
+    .container {
+      padding-left: 200px;
+    }
+    .top {
+        padding-top: 20px;
+        padding-left: 220px;
+        font-size: 20px;
+        color: blue;
+    }
+   
+.d-flex {
+    margin-top: 70px;
+   padding-right: 160px;
+}
+ 
+   
+     .left {
+        display: inline;
+        
+    }
+    .right {
+        display: inline;
+        float: right;
+    }
+    
+    .jumbotron {
+        height: auto;
+      
+    }
+    .footer-1 {
+        float: left;
+    }
+   .footer-2 {
+       float: left;
+   }
